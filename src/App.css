@@ -1,72 +1,70 @@
 .navbar {
-  background-color: black;
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; 
-  padding: 0 20px; 
-}
-
-header {
-  display: flex;
-  align-items: center; 
-}
-
-header > img {
-  width: 200px;
-  height: 100px;
-}
-
-.item > ul {
-  color: white;
-  cursor: pointer;
-  display: flex;
-  list-style-type: none;
-  font-size: x-large;
-  margin-left: 20px; 
-}
-
-
-.item > ul > li {
-  position: relative;
-  padding-right: 20px;
-  margin: 20px;
-}
-.item > ul > li:hover {
-  text-decoration: underline;
-}
-.item > ul > li i {
-  position: absolute;
-margin: 8px;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
   
-}
-
-.right-item {
-  display: flex;
-  margin-left:40%; 
-  align-items: center; 
-}
-.right-item >li{
-  color: white;
-  font-size: x-large;
-  list-style-type: none;
-  margin-right: 30px;
-  cursor: pointer;
+  header {
+    display: flex;
+    align-items: center;
+  }
   
-}
-.right-item>li:hover{
-  text-decoration: underline;
-}
-
-
-.right-item > button {
-margin: 20px;
-font-size: large;
-padding: 15px;
-background-color: black;
-border: 1px solid white;
-color: white;
-cursor: pointer;
-border-radius: 4px;
-font-weight: 500;
-}
+  header > img {
+    width: 200px;
+    height: 100px;
+  }
+  
+  .item > ul {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    list-style-type: none;
+    font-size: x-large;
+    margin-left: 20px;
+  }
+  
+  .item > ul > li {
+    position: relative;
+    padding-right: 20px;
+    margin: 20px;
+  }
+  
+  .item > ul > li:hover,
+  .right-item > li:hover {
+    text-decoration: underline;
+  }
+  
+  .item > ul > li i {
+    position: absolute;
+    margin: 8px;
+  }
+  
+  .right-item {
+    display: flex;
+    margin-left: 40%;
+    align-items: center;
+  }
+  
+  .right-item > li {
+    color: white;
+    font-size: x-large;
+    list-style-type: none;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  
+  .right-item > button {
+    margin: 20px;
+    font-size: large;
+    padding: 15px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  
