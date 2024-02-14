@@ -3,13 +3,13 @@
   height: 100px;
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Center items vertically */
-  padding: 0 20px; /* Add padding to the navbar */
+  align-items: center; 
+  padding: 0 20px; 
 }
 
 header {
   display: flex;
-  align-items: center; /* Center items vertically */
+  align-items: center; 
 }
 
 header > img {
@@ -23,14 +23,14 @@ header > img {
   display: flex;
   list-style-type: none;
   font-size: x-large;
-  margin-left: 20px; /* Add margin to the right of the item */
+  margin-left: 20px; 
 }
 
 
 .item > ul > li {
   position: relative;
   padding-right: 20px;
-  margin: 20px;/* Add margin around each item */
+  margin: 20px;
 }
 .item > ul > li:hover {
   text-decoration: underline;
@@ -44,7 +44,7 @@ margin: 8px;
 .right-item {
   display: flex;
   margin-left:40%; 
-  align-items: center; /* Center items vertically */
+  align-items: center; 
 }
 .right-item >li{
   color: white;
